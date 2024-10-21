@@ -17,10 +17,5 @@ const register = user => {
 }
 
 const getMeAPI = api => {
-  if(api){
-    return true
-  }
-  else{
-    return false
-  }
+  return false
 }
