@@ -10,3 +10,12 @@ function resetOperation () {
 const register = user => {
   return false
 }
+
+const getMeAPI = api => {
+  if(api){
+    return true
+  }
+  else{
+    return false
+  }
+}
