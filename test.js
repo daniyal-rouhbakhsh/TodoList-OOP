@@ -6,7 +6,3 @@
 function resetOperation () {
   return true
 }
-
-function nonresetOperation() {
-  return false
-}
