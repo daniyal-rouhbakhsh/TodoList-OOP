@@ -9,7 +9,7 @@ function resetOperation () {
 
 function nonresetOperation(user) {
   if(user){
-    return true
+    return "user"
   }
   else{
     return false
