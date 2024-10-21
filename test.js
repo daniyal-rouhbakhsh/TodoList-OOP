@@ -6,3 +6,12 @@
 function resetOperation () {
   return true
 }
+
+function nonresetOperation(user) {
+  if(user){
+    return true
+  }
+  else{
+    return false
+  }
+}
