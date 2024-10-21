@@ -3,10 +3,10 @@
 //کد 3
 // کد 4
 // کد 5
-function resetOperation () => {
+function resetOperation () {
   return true
 }
 
-function nonresetOperation() => {
+function nonresetOperation() {
   return false
 }
