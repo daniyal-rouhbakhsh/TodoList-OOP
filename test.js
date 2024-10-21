@@ -7,11 +7,3 @@ function resetOperation () {
   return true
 }
 
-function nonresetOperation(user) {
-  if(user){
-    return "user"
-  }
-  else{
-    return false
-  }
-}
