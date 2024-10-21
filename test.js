@@ -8,5 +8,10 @@ function resetOperation () {
 }
 
 const register = user => {
-  return false
+  if(user){
+    return "User"
+  }
+  else{
+    return false
+  }
 }
